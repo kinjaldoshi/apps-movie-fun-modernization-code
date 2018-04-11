@@ -1,7 +1,9 @@
-DROP TABLE IF EXISTS album_scheduler_task;
-
-CREATE TABLE album_scheduler_task (
-  started_at TIMESTAMP NULL DEFAULT NULL
+CREATE TABLE movie
+(
+  id BIGINT(20) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  director VARCHAR(255),
+  genre VARCHAR(255),
+  rating INT(11) NOT NULL,
+  title VARCHAR(255),
+  year INT(11) NOT NULL
 );
-
-INSERT INTO album_scheduler_task (started_at) VALUES (NULL);
