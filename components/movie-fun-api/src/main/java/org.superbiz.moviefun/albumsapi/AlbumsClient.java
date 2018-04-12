@@ -2,8 +2,6 @@ package org.superbiz.moviefun.albumsapi;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.client.RestOperations;
 
 import java.util.List;
