@@ -8,3 +8,6 @@ include "components:movie-fun-api"
 include "applications:movie-fun-app"
 include "applications:movie-service"
 include "applications:album-service"
+
+include "databases:album-database"
+include "databases:movie-database"
